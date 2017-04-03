@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="layout\css\bootstrapJs\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,17 +75,50 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="layout\css\bootstrapCss\bootstrap-theme.css" />
+    <Content Include="layout\css\bootstrapCss\bootstrap-theme.min.css" />
+    <Content Include="layout\css\bootstrapCss\bootstrap.css" />
+    <Content Include="layout\css\bootstrapCss\bootstrap.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="layout\css\bootstrapCss\bootstrap.min.css.map" />
+    <Content Include="layout\css\bootstrapCss\bootstrap.css.map" />
+    <Content Include="layout\css\bootstrapCss\bootstrap-theme.min.css.map" />
+    <Content Include="layout\css\bootstrapCss\bootstrap-theme.css.map" />
+    <None Include="layout\css\bootstrapJs\jquery-1.9.1.intellisense.js" />
+    <Content Include="layout\css\bootstrapJs\bootstrap.js" />
+    <Content Include="layout\css\bootstrapJs\bootstrap.min.js" />
+    <Content Include="layout\css\bootstrapJs\jquery-1.9.1.js" />
+    <Content Include="layout\css\bootstrapJs\jquery-1.9.1.min.js" />
+    <Content Include="layout\css\Dashboard.css" />
+    <Content Include="layout\css\ie10-viewport-bug-workaround.js" />
+    <Content Include="layout\css\ie10-viewport-bug-workaround.css" />
     <Content Include="Web.config" />
+    <Content Include="layout\css\holder.min.js" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
+    <Folder Include="layout\js\" />
+    <Folder Include="layout\masterpage\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
