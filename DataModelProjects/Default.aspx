@@ -222,7 +222,7 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
+<%--    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="layout/css/bootstrapJs/jquery-1.9.1.min.js"></script>
@@ -231,6 +231,6 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="layout/css/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="layout/css/ie10-viewport-bug-workaround.js"></script>
+    <script src="layout/css/ie10-viewport-bug-workaround.js"></script>--%>
 </body>
 </html>
